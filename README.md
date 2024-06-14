@@ -1,6 +1,8 @@
 ## Fungus Image Classification with Deep Neural Networks
 
-In the project, the classification problem is solved. The data set DeFungi: Microscopic Fungi Image Classification is located at [DeFungi: Microscopic Fungi Image Classification (kaggle.com)](https://www.kaggle.com/datasets/joebeachcapital/defungi/data). At data preprocessing, images with low variance are supposed as outliers that are blurred or do not contain fungus. Such Images were excluded. Two models are being investigated: ResNet and ConvMixer.
+In the project, the classification problem is solved. The data set DeFungi: Microscopic Fungi Image Classification is located at [DeFungi: Microscopic Fungi Image Classification (kaggle.com)](https://www.kaggle.com/datasets/joebeachcapital/defungi/data). Some of the images are placed in folder Defungi.
+
+At data preprocessing, images with low variance are supposed as outliers that are blurred or do not contain fungus. Such Images were excluded. Two models are being investigated: ResNet and ConvMixer.
 
 ResNet-34 has a CNN architecture that is a classical one for image classification. ResNet-34 model development includes the following steps:
 -	Data augmentation to make the data set balanced;
